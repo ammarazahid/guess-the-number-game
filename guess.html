@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>guess</title>
+</head>
+<body onload="one()">
+
+    <div id="choose">
+        <div>
+            <h1>LeVeLs!!!!</h1>
+            <button onclick="easy()">Easy</button>
+            <button onclick="medium()">Medium</button>
+            <button onclick="hard()">Hard</button>
+        </div>
+        <div>
+            <img scr="images/question-mark.png" alt="question-mark">
+        </div>
+    </div>
+    <div id="Easy">
+        <h1>GuesssSSSSSSS!!!!!!</h1>
+        <input type="number" for="number"><br />
+        <button onclick="check()" id="check">Check Your Number</button>
+    </div>
+    <div id="Medium">
+        <h1>GuesssSSSSSSS!!!!!!</h1>
+        <input type="number" for="number"><br />
+        <button onclick="check()" id="check">Check Your Number</button>
+    </div>
+    <div id="hard">
+        <h1>GuesssSSSSSSS!!!!!!</h1>
+        <input type="number" for="number"><br />
+        <button onclick="check()" id="check">Check Your Number</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

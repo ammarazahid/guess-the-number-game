@@ -1,0 +1,23 @@
+#choose>div {
+    text-align: center;
+    display: flex;
+}
+
+
+#first-image {
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+#go-guess {
+    list-style: none;
+    text-decoration-line: none;
+    position: relative;
+    color: seagreen;
+    background: oldlace;
+    font-size: -webkit-xxx-large;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 25px;
+}
