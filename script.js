@@ -1,4 +1,3 @@
-let click;
 
 function one() {
     // document.querySelector("#first").style.display = "none";
@@ -31,54 +30,54 @@ function hard() {
     document.querySelector("#hard").style.display = "block";
 }
 
+let count = 0;
+let randomIndex = parseInt((Math.random() * 50));
 
 function checkEasy() {
     let userNumber = document.querySelector("#easy-inp").value;
-    click++;
-    let randomIndex = parseInt((Math.random() * 50));
-    //    if (userNumber < 0){
-    //        alert("Please Enter a number");
-    //      } else {
-        if (click > 6){
-            alert("Game Over!!Try again");
-        } else{
     if (userNumber == randomIndex) {
-        alert("Congratulations!! You guess right number....");
-    } else 
+        alert("Congratulations!! You guess right number....YOu tried " + count + " times");
+    } else {
         if (userNumber < randomIndex) {
-            alert("Try a bigger number");            
-        } else if (userNumber > randomIndex) {
+            alert("Try a bigger number");
+            count++;            
+        } else  {
             alert("Try a smaller number");
+            count++;
         }
     }
 }
+let randomIndex2 = parseInt((Math.random() * 100));
 
 
 function checkMedium() {
     let userNumber = document.querySelector("#med-inp").value;
-    let randomIndex = parseInt((Math.random() * 100));
-    if (userNumber == randomIndex) {
-        alert("Congratulations!! You guess right number....");
+    if (userNumber == randomIndex2) {
+        alert("Congratulations!! You guess right number....YOu tried " + count + " times");
     } else {
-        if (userNumber > randomIndex) {
+        if (userNumber < randomIndex2) {
             alert("Try a bigger number");
-        } else if (userNumber < randomIndex) {
+            count++;
+        } else {
             alert("Try a smaller number");
+            count++;
         }
     }
 }
+let randomIndex3 = parseInt((Math.random() * 1000));
 
 
 function checkHard() {
     let userNumber = document.querySelector("#hard-inp").value;
-    let randomIndex = parseInt((Math.random() * 1000));
-    if (userNumber == randomIndex) {
-        alert("Congratulations!! You guess right number....");
+    if (userNumber == randomIndex3) {
+        alert("Congratulations!! You guess right number....YOu tried " + count + " times");
     } else {
-        if (userNumber > randomIndex) {
+        if (userNumber < randomIndex3) {
             alert("Try a bigger number");
-        } else if (userNumber < randomIndex) {
+            count++;
+        } else {
             alert("Try a smaller number");
+            count++;
         }
     }
 }

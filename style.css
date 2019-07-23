@@ -30,7 +30,6 @@ body{
 #choose {
     text-align: center;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     background: #f6f6f6;
@@ -48,11 +47,6 @@ body{
     font-weight: bolder;
     border-radius: 6px;
     background-color: yellowgreen;
-}
-
-#choose>div {
-    display: inline;
-    width: initial;
 }
 
 #levels>h1 {
