@@ -11,30 +11,32 @@
 <body onload="one()">
 
     <div id="choose">
-        <div>
+        <div id="levels">
             <h1>LeVeLs!!!!</h1>
+            <div id="buttons">
             <button onclick="easy()">Easy</button>
             <button onclick="medium()">Medium</button>
             <button onclick="hard()">Hard</button>
+            </div>
         </div>
-        <div>
-            <img scr="images/question-mark.png" alt="question-mark">
+        <div id="img-ques">
+            <img src="images/question-mark.png" alt="question-mark">
         </div>
     </div>
     <div id="Easy">
         <h1>GuesssSSSSSSS!!!!!!</h1>
-        <input type="number" for="number"><br />
-        <button onclick="check()" id="check">Check Your Number</button>
+        <input id="easy-inp" type="number" for="number"><br />
+        <button onclick="checkEasy()" id="checkeasy">Check Your Number</button>
     </div>
     <div id="Medium">
         <h1>GuesssSSSSSSS!!!!!!</h1>
-        <input type="number" for="number"><br />
-        <button onclick="check()" id="check">Check Your Number</button>
+        <input id="med-inp" type="number" for="number"><br />
+        <button onclick="checkMedium()" id="checkmedium">Check Your Number</button>
     </div>
     <div id="hard">
         <h1>GuesssSSSSSSS!!!!!!</h1>
-        <input type="number" for="number"><br />
-        <button onclick="check()" id="check">Check Your Number</button>
+        <input id="hard-inp" type="number" for="number"><br />
+        <button onclick="checkHard()" id="checkhard">Check Your Number</button>
     </div>
     <script src="script.js"></script>
 

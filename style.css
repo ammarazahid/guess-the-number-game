@@ -1,9 +1,6 @@
-#choose>div {
-    text-align: center;
-    display: flex;
+body{
+    margin: 0%;
 }
-
-
 #first-image {
     position: absolute;
     width: -webkit-fill-available;
@@ -13,11 +10,48 @@
 #go-guess {
     list-style: none;
     text-decoration-line: none;
-    position: relative;
     color: seagreen;
     background: oldlace;
     font-size: -webkit-xxx-large;
     font-weight: bold;
     font-family: cursive;
     border-radius: 25px;
+    padding: 20px;
+    top: 52%;
+    position: absolute;
+    left: 17%;
+    right: 17%;
+}
+
+#choose {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #f6f6f6;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+#choose button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-radius: 6px;
+    background-color: yellowgreen;
+}
+
+#choose>div {
+    display: inline;
+}
+
+#levels>h1 {
+    font-size: 69px;
+    font-weight: bolder;
+    font-style: oblique;
 }

@@ -29,3 +29,49 @@ function hard(){
     document.querySelector("#hard").style.display = "block";
 }
 
+
+function checkEasy(){
+   let userNumber = document.querySelector("#easy-inp").value;
+   let randomIndex = parseInt(Math.random() * 50);
+   if (userNumber == randomIndex){
+       alert("Congratulations!! You guess right number....");
+   } else { 
+   if (userNumber > randomIndex){
+       alert("Too big");
+   } else if (userNumber < randomIndex){
+       alert("Too small");
+   }
+   }
+}
+
+
+function checkMedium(){
+    let userNumber = document.querySelector("#med-inp").value;
+    let randomIndex = parseInt(Math.random() * 100);
+    if (userNumber == randomIndex){
+        alert("Congratulations!! You guess right number....");
+    } else { 
+    if (userNumber > randomIndex){
+        alert("Too big");
+    } else if (userNumber < randomIndex){
+        alert("Too small");
+    }
+    }
+ }
+
+ 
+function checkHard(){
+    let userNumber = document.querySelector("#hard-inp").value;
+    let randomIndex = parseInt(Math.random() * 150);
+    if (userNumber == randomIndex){
+        alert("Congratulations!! You guess right number....");
+    } else { 
+    if (userNumber > randomIndex){
+        alert("Too big");
+    } else if (userNumber < randomIndex){
+        alert("Too small");
+    }
+    }
+ }
+ 
+ 
