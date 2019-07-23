@@ -1,10 +1,11 @@
-body{
+body {
     margin: 0%;
 }
 
-*{
+* {
     outline: none;
 }
+
 #first-image {
     position: absolute;
     width: -webkit-fill-available;
@@ -55,8 +56,7 @@ body{
     font-style: oblique;
 }
 
-
-.guess-h1{
+.guess-h1 {
     text-align: center;
     margin: 50px 30px 30px 30px;
     font-size: -webkit-xxx-large;
@@ -67,7 +67,7 @@ body{
     padding: 12px 0px;
 }
 
-p{
+p {
     text-align: center;
     font-size: x-large;
     margin: 10px;
@@ -75,11 +75,11 @@ p{
     font-weight: bolder;
 }
 
-#Easy, #Medium, #hard{
+#Easy, #Medium, #hard {
     text-align: center;
 }
 
-input{
+input {
     border: none;
     padding: 20px 40px;
     margin: 20px;
@@ -89,8 +89,8 @@ input{
     text-align: center;
     border-radius: 33px;
 }
-#checkhard, #checkmedium, #checkeasy{
-    
+
+#checkhard, #checkmedium, #checkeasy {
     background: #690c79;
     font-size: x-large;
     padding: 20px;
@@ -98,17 +98,43 @@ input{
     margin: 20px;
     color: whitesmoke;
     border-radius: 10px;
-
-}
-.level-a{
-display: inherit;
-text-decoration: none;
-color: violet;
-font-size: xx-large;
-font-weight: bolder;
-font-style: oblique;
 }
 
-.level-a:hover{
+.level-a {
+    display: inherit;
+    text-decoration: none;
+    color: violet;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.level-a:hover {
     color: #690c79;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    #go-guess {
+        font-size: x-large;
+        font-weight: bolder;
+        padding: 20px;
+        text-align: center;
+        top: 37%;
+        left: 10%;
+        right: 14%;
+    }
+    #first-image{
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+#easy-inp{
+    padding: 19px 0px;
+}
+
+.guess-h1{
+    font-size: x-large;
+}
+#checkeasy{
+    font-size: larger;
+}
 }
