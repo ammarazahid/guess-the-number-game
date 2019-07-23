@@ -114,3 +114,7 @@ font-size: xx-large;
 font-weight: bolder;
 font-style: oblique;
 }
+
+.level-a:hover{
+    color: #690c79;
+}
