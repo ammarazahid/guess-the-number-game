@@ -1,6 +1,10 @@
 body{
     margin: 0%;
 }
+
+*{
+    outline: none;
+}
 #first-image {
     position: absolute;
     width: -webkit-fill-available;
@@ -20,7 +24,7 @@ body{
     top: 52%;
     position: absolute;
     left: 17%;
-    right: 17%;
+    right: 37%;
 }
 
 #choose {
@@ -48,10 +52,65 @@ body{
 
 #choose>div {
     display: inline;
+    width: initial;
 }
 
 #levels>h1 {
     font-size: 69px;
     font-weight: bolder;
     font-style: oblique;
+}
+
+
+.guess-h1{
+    text-align: center;
+    margin: 50px 30px 30px 30px;
+    font-size: -webkit-xxx-large;
+    font-weight: bolder;
+    font-family: cursive;
+    color: #6d286d;
+    background: #e1b7e8;
+    padding: 12px 0px;
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+#Easy, #Medium, #hard{
+    text-align: center;
+}
+
+input{
+    border: none;
+    padding: 20px 40px;
+    margin: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    background: thistle;
+    text-align: center;
+    border-radius: 33px;
+}
+#checkhard, #checkmedium, #checkeasy{
+    
+    background: #690c79;
+    font-size: x-large;
+    padding: 20px;
+    border: none;
+    margin: 20px;
+    color: whitesmoke;
+    border-radius: 10px;
+
+}
+.level-a{
+display: inherit;
+text-decoration: none;
+color: violet;
+font-size: xx-large;
+font-weight: bolder;
+font-style: oblique;
 }

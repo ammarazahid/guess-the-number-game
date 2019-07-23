@@ -32,7 +32,7 @@ function hard(){
 
 function checkEasy(){
    let userNumber = document.querySelector("#easy-inp").value;
-   let randomIndex = parseInt(Math.random() * 50);
+   let randomIndex = (Math.random() * 50);
    if (userNumber == randomIndex){
        alert("Congratulations!! You guess right number....");
    } else { 
@@ -47,7 +47,7 @@ function checkEasy(){
 
 function checkMedium(){
     let userNumber = document.querySelector("#med-inp").value;
-    let randomIndex = parseInt(Math.random() * 100);
+    let randomIndex = (Math.random() * 100);
     if (userNumber == randomIndex){
         alert("Congratulations!! You guess right number....");
     } else { 
@@ -62,7 +62,7 @@ function checkMedium(){
  
 function checkHard(){
     let userNumber = document.querySelector("#hard-inp").value;
-    let randomIndex = parseInt(Math.random() * 150);
+    let randomIndex = (Math.random() * 1000);
     if (userNumber == randomIndex){
         alert("Congratulations!! You guess right number....");
     } else { 
