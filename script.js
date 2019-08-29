@@ -1,7 +1,7 @@
 
 function one() {
     // document.querySelector("#first").style.display = "none";
-    document.querySelector("#choose").style.display = "block";
+//     document.querySelector("#choose").style.display = "block";
     document.querySelector("#Easy").style.display = "none";
     document.querySelector("#Medium").style.display = "none";
     document.querySelector("#hard").style.display = "none";
